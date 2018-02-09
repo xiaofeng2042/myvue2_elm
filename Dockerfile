@@ -6,5 +6,5 @@ ADD . /src
 # Install app dependencies
 RUN cd /src; npm install
 
-EXPOSE  3000
-CMD ["node", "/src/build/dev-server.js"]
+EXPOSE  8080
+CMD cd /src; npm run start
