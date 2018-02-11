@@ -22,6 +22,9 @@ if (process.env.NODE_ENV == 'development') {
   imgBaseUrl = 'http://cangdu.org:8001/img/';
 }
 
+baseUrl = 'http://mynode_elm:8001';
+imgBaseUrl = 'http://mynode_elm:8001/img/';
+
 export {
 	baseUrl,
 	routerMode,
