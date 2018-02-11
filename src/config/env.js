@@ -22,8 +22,9 @@ if (process.env.NODE_ENV == 'development') {
   imgBaseUrl = 'http://cangdu.org:8001/img/';
 }
 
-baseUrl = 'http://mynode_elm:32776';
-imgBaseUrl = 'http://mynode_elm:32776/img/';
+// console.log(process.env.NODE_HOST)
+baseUrl = process.env.NODE_HOST;
+imgBaseUrl = process.env.NODE_HOST + '/img/';
 
 export {
 	baseUrl,
