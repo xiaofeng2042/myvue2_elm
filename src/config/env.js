@@ -7,11 +7,11 @@
  * 
  */
 
-let baseUrl = ''; 
-let routerMode = 'hash';
-let imgBaseUrl;
-let localapi;
-let proapi;
+var baseUrl = ''; 
+var routerMode = 'hash';
+var imgBaseUrl;
+var localapi;
+var proapi;
 
 
 if (process.env.NODE_ENV == 'development') {
@@ -22,8 +22,8 @@ if (process.env.NODE_ENV == 'development') {
   imgBaseUrl = 'http://cangdu.org:8001/img/';
 }
 
-baseUrl = 'http://mynode_elm:8001';
-imgBaseUrl = 'http://mynode_elm:8001/img/';
+baseUrl = 'http://mynode_elm:32776';
+imgBaseUrl = 'http://mynode_elm:32776/img/';
 
 export {
 	baseUrl,
